@@ -18,15 +18,27 @@
 		D2691BE01641778D0087948B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D2691BDF1641778D0087948B /* Default.png */; };
 		D2691BE21641778D0087948B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2691BE11641778D0087948B /* Default@2x.png */; };
 		D2691BE41641778D0087948B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2691BE31641778D0087948B /* Default-568h@2x.png */; };
-		D2691BE71641778D0087948B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2691BE51641778D0087948B /* MainStoryboard.storyboard */; };
+		D2691BE71641778D0087948B /* Iphone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2691BE51641778D0087948B /* Iphone5.storyboard */; };
 		D2691BE91641778D0087948B /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D2691BE81641778D0087948B /* Shader.fsh */; };
 		D2691BEB1641778D0087948B /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D2691BEA1641778D0087948B /* Shader.vsh */; };
 		D2691BEE1641778D0087948B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2691BED1641778D0087948B /* ViewController.m */; };
-		D2691BF61641778E0087948B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2691BF51641778E0087948B /* SenTestingKit.framework */; };
 		D2691BF71641778E0087948B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2691BC91641778D0087948B /* UIKit.framework */; };
 		D2691BF81641778E0087948B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2691BCB1641778D0087948B /* Foundation.framework */; };
 		D2691C001641778E0087948B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2691BFE1641778E0087948B /* InfoPlist.strings */; };
 		D2691C031641778E0087948B /* Attitude_IndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2691C021641778E0087948B /* Attitude_IndicatorTests.m */; };
+		D27B8D3D16431BD70031A048 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B8D3C16431BD70031A048 /* CoreMotion.framework */; };
+		D27B8D91164813A00031A048 /* attitude.png in Resources */ = {isa = PBXBuildFile; fileRef = D27B8D90164813A00031A048 /* attitude.png */; };
+		D2A7BDA6199C0D6A006B2185 /* icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDA2199C0D6A006B2185 /* icon80.png */; };
+		D2A7BDA7199C0D6A006B2185 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDA3199C0D6A006B2185 /* icon120.png */; };
+		D2A7BDA8199C0D6A006B2185 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDA4199C0D6A006B2185 /* icon152.png */; };
+		D2A7BDA9199C0D6A006B2185 /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDA5199C0D6A006B2185 /* icon1024.png */; };
+		D2A7BDAF199CEC3E006B2185 /* cage.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDAE199CEC3E006B2185 /* cage.png */; };
+		D2A7BDB1199CEE7B006B2185 /* cal.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDB0199CEE7B006B2185 /* cal.png */; };
+		D2A7BDB3199D5A71006B2185 /* dc.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDB2199D5A71006B2185 /* dc.png */; };
+		D2A7BDB5199D6128006B2185 /* dcbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDB4199D6128006B2185 /* dcbutton.png */; };
+		D2A7BDBC199E83F2006B2185 /* Iphone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A7BDBB199E83F2006B2185 /* Iphone4.storyboard */; };
+		D2B43F841666B9EA00A3CD14 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = D2B43F831666B9EA00A3CD14 /* compass.png */; };
+		D2B43F861669294500A3CD14 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27B8D3916431BC90031A048 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,17 +67,29 @@
 		D2691BDF1641778D0087948B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D2691BE11641778D0087948B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D2691BE31641778D0087948B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D2691BE61641778D0087948B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D2691BE61641778D0087948B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Iphone5.storyboard; sourceTree = "<group>"; };
 		D2691BE81641778D0087948B /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		D2691BEA1641778D0087948B /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		D2691BEC1641778D0087948B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D2691BED1641778D0087948B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D2691BF41641778E0087948B /* Attitude IndicatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attitude IndicatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2691BF51641778E0087948B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2691BF41641778E0087948B /* Attitude IndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attitude IndicatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2691BFD1641778E0087948B /* Attitude IndicatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Attitude IndicatorTests-Info.plist"; sourceTree = "<group>"; };
 		D2691BFF1641778E0087948B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2691C011641778E0087948B /* Attitude_IndicatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Attitude_IndicatorTests.h; sourceTree = "<group>"; };
 		D2691C021641778E0087948B /* Attitude_IndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Attitude_IndicatorTests.m; sourceTree = "<group>"; };
+		D27B8D3916431BC90031A048 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D27B8D3C16431BD70031A048 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D27B8D90164813A00031A048 /* attitude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attitude.png; sourceTree = "<group>"; };
+		D2A7BDA2199C0D6A006B2185 /* icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80.png; sourceTree = "<group>"; };
+		D2A7BDA3199C0D6A006B2185 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		D2A7BDA4199C0D6A006B2185 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		D2A7BDA5199C0D6A006B2185 /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		D2A7BDAE199CEC3E006B2185 /* cage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cage.png; sourceTree = "<group>"; };
+		D2A7BDB0199CEE7B006B2185 /* cal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cal.png; sourceTree = "<group>"; };
+		D2A7BDB2199D5A71006B2185 /* dc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dc.png; sourceTree = "<group>"; };
+		D2A7BDB4199D6128006B2185 /* dcbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dcbutton.png; sourceTree = "<group>"; };
+		D2A7BDBB199E83F2006B2185 /* Iphone4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Iphone4.storyboard; path = ../Iphone4.storyboard; sourceTree = "<group>"; };
+		D2B43F831666B9EA00A3CD14 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B43F861669294500A3CD14 /* CoreLocation.framework in Frameworks */,
+				D27B8D3D16431BD70031A048 /* CoreMotion.framework in Frameworks */,
 				D2691BCA1641778D0087948B /* UIKit.framework in Frameworks */,
 				D2691BCC1641778D0087948B /* Foundation.framework in Frameworks */,
 				D2691BCE1641778D0087948B /* CoreGraphics.framework in Frameworks */,
@@ -85,7 +111,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2691BF61641778E0087948B /* SenTestingKit.framework in Frameworks */,
 				D2691BF71641778E0087948B /* UIKit.framework in Frameworks */,
 				D2691BF81641778E0087948B /* Foundation.framework in Frameworks */,
 			);
@@ -97,6 +122,8 @@
 		D2691BBA1641778D0087948B = {
 			isa = PBXGroup;
 			children = (
+				D27B8D3C16431BD70031A048 /* CoreMotion.framework */,
+				D27B8D3916431BC90031A048 /* CoreLocation.framework */,
 				D2691BD31641778D0087948B /* Attitude Indicator */,
 				D2691BFB1641778E0087948B /* Attitude IndicatorTests */,
 				D2691BC81641778D0087948B /* Frameworks */,
@@ -108,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				D2691BC51641778D0087948B /* Attitude Indicator.app */,
-				D2691BF41641778E0087948B /* Attitude IndicatorTests.octest */,
+				D2691BF41641778E0087948B /* Attitude IndicatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +148,6 @@
 				D2691BCD1641778D0087948B /* CoreGraphics.framework */,
 				D2691BCF1641778D0087948B /* GLKit.framework */,
 				D2691BD11641778D0087948B /* OpenGLES.framework */,
-				D2691BF51641778E0087948B /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,13 +155,9 @@
 		D2691BD31641778D0087948B /* Attitude Indicator */ = {
 			isa = PBXGroup;
 			children = (
-				D2691BDC1641778D0087948B /* AppDelegate.h */,
-				D2691BDD1641778D0087948B /* AppDelegate.m */,
-				D2691BE51641778D0087948B /* MainStoryboard.storyboard */,
-				D2691BE81641778D0087948B /* Shader.fsh */,
-				D2691BEA1641778D0087948B /* Shader.vsh */,
-				D2691BEC1641778D0087948B /* ViewController.h */,
-				D2691BED1641778D0087948B /* ViewController.m */,
+				D2F2E03B164862930027ADCA /* UI */,
+				D2F2E03A1648627B0027ADCA /* Textures */,
+				D2F2E038164862470027ADCA /* Shaders */,
 				D2691BD41641778D0087948B /* Supporting Files */,
 			);
 			path = "Attitude Indicator";
@@ -144,6 +166,10 @@
 		D2691BD41641778D0087948B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2A7BDA2199C0D6A006B2185 /* icon80.png */,
+				D2A7BDA3199C0D6A006B2185 /* icon120.png */,
+				D2A7BDA4199C0D6A006B2185 /* icon152.png */,
+				D2A7BDA5199C0D6A006B2185 /* icon1024.png */,
 				D2691BD51641778D0087948B /* Attitude Indicator-Info.plist */,
 				D2691BD61641778D0087948B /* InfoPlist.strings */,
 				D2691BD91641778D0087948B /* main.m */,
@@ -172,6 +198,41 @@
 				D2691BFE1641778E0087948B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2F2E038164862470027ADCA /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				D2691BE81641778D0087948B /* Shader.fsh */,
+				D2691BEA1641778D0087948B /* Shader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		D2F2E03A1648627B0027ADCA /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				D2A7BDB4199D6128006B2185 /* dcbutton.png */,
+				D2A7BDB2199D5A71006B2185 /* dc.png */,
+				D2A7BDB0199CEE7B006B2185 /* cal.png */,
+				D2A7BDAE199CEC3E006B2185 /* cage.png */,
+				D2B43F831666B9EA00A3CD14 /* compass.png */,
+				D27B8D90164813A00031A048 /* attitude.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		D2F2E03B164862930027ADCA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D2691BDC1641778D0087948B /* AppDelegate.h */,
+				D2691BDD1641778D0087948B /* AppDelegate.m */,
+				D2691BE51641778D0087948B /* Iphone5.storyboard */,
+				D2A7BDBB199E83F2006B2185 /* Iphone4.storyboard */,
+				D2691BEC1641778D0087948B /* ViewController.h */,
+				D2691BED1641778D0087948B /* ViewController.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +271,8 @@
 			);
 			name = "Attitude IndicatorTests";
 			productName = "Attitude IndicatorTests";
-			productReference = D2691BF41641778E0087948B /* Attitude IndicatorTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = D2691BF41641778E0087948B /* Attitude IndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,8 +280,15 @@
 		D2691BBC1641778D0087948B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Jose;
+				TargetAttributes = {
+					D2691BC41641778D0087948B = {
+						DevelopmentTeam = 4T92SGR8A3;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = D2691BBF1641778D0087948B /* Build configuration list for PBXProject "Attitude Indicator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -245,13 +313,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A7BDB3199D5A71006B2185 /* dc.png in Resources */,
+				D2A7BDB5199D6128006B2185 /* dcbutton.png in Resources */,
 				D2691BD81641778D0087948B /* InfoPlist.strings in Resources */,
 				D2691BE01641778D0087948B /* Default.png in Resources */,
 				D2691BE21641778D0087948B /* Default@2x.png in Resources */,
+				D2A7BDB1199CEE7B006B2185 /* cal.png in Resources */,
 				D2691BE41641778D0087948B /* Default-568h@2x.png in Resources */,
-				D2691BE71641778D0087948B /* MainStoryboard.storyboard in Resources */,
+				D2A7BDA6199C0D6A006B2185 /* icon80.png in Resources */,
+				D2691BE71641778D0087948B /* Iphone5.storyboard in Resources */,
 				D2691BE91641778D0087948B /* Shader.fsh in Resources */,
+				D2A7BDAF199CEC3E006B2185 /* cage.png in Resources */,
+				D2A7BDBC199E83F2006B2185 /* Iphone4.storyboard in Resources */,
+				D2A7BDA7199C0D6A006B2185 /* icon120.png in Resources */,
 				D2691BEB1641778D0087948B /* Shader.vsh in Resources */,
+				D2A7BDA9199C0D6A006B2185 /* icon1024.png in Resources */,
+				D27B8D91164813A00031A048 /* attitude.png in Resources */,
+				D2B43F841666B9EA00A3CD14 /* compass.png in Resources */,
+				D2A7BDA8199C0D6A006B2185 /* icon152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +398,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D2691BE51641778D0087948B /* MainStoryboard.storyboard */ = {
+		D2691BE51641778D0087948B /* Iphone5.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D2691BE61641778D0087948B /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = Iphone5.storyboard;
 			sourceTree = "<group>";
 		};
 		D2691BFE1641778E0087948B /* InfoPlist.strings */ = {
@@ -347,7 +426,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jose Mortensen (87VG7C9AL9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jose Mortensen (87VG7C9AL9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -362,6 +442,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DeAttitude;
+				PROVISIONING_PROFILE = "CC8D939D-BE43-45AA-8976-6E6DF5B85CCD";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -375,7 +457,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jose Mortensen (87VG7C9AL9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jose Mortensen (87VG7C9AL9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -383,6 +466,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = DeAttitude;
+				PROVISIONING_PROFILE = "CC8D939D-BE43-45AA-8976-6E6DF5B85CCD";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -391,10 +476,18 @@
 		D2691C071641778E0087948B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T92SGR8A3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attitude Indicator/Attitude Indicator-Prefix.pch";
 				INFOPLIST_FILE = "Attitude Indicator/Attitude Indicator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desensu.Attitude-Indicator2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,10 +495,18 @@
 		D2691C081641778E0087948B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4T92SGR8A3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attitude Indicator/Attitude Indicator-Prefix.pch";
 				INFOPLIST_FILE = "Attitude Indicator/Attitude Indicator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desensu.Attitude-Indicator2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -417,13 +518,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attitude Indicator/Attitude Indicator-Prefix.pch";
 				INFOPLIST_FILE = "Attitude IndicatorTests/Attitude IndicatorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -434,13 +535,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Attitude Indicator/Attitude Indicator-Prefix.pch";
 				INFOPLIST_FILE = "Attitude IndicatorTests/Attitude IndicatorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -463,6 +564,7 @@
 				D2691C081641778E0087948B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2691C091641778E0087948B /* Build configuration list for PBXNativeTarget "Attitude IndicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +573,7 @@
 				D2691C0B1641778E0087948B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

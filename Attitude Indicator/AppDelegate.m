@@ -10,9 +10,34 @@
 
 @implementation AppDelegate
 
+- (UIStoryboard *)grabStoryboard {
+    
+    UIStoryboard *storyboard;
+    
+    // detect the height of our screen
+    int height = [UIScreen mainScreen].bounds.size.height;
+    
+    if (height == 480) {
+        storyboard = [UIStoryboard storyboardWithName:@"Iphone4" bundle:nil];
+    } else {
+        storyboard = [UIStoryboard storyboardWithName:@"Iphone5" bundle:nil];
+    }
+    
+    return storyboard;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    application.idleTimerDisabled = YES;
+
+    
+    UIStoryboard *storyboard = [self grabStoryboard];
+    
+    // show the storyboard
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
@@ -26,11 +51,13 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    application.idleTimerDisabled = NO;
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    application.idleTimerDisabled = YES;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

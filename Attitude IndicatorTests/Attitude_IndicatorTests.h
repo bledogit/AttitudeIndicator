@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 Jose. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface Attitude_IndicatorTests : SenTestCase
+@interface Attitude_IndicatorTests : XCTestCase
 
 @end
